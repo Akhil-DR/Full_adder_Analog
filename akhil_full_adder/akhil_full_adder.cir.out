@@ -1,0 +1,32 @@
+* c:\users\dell\esim-workspace\akhil_full_adder\akhil_full_adder.cir
+
+* u1  net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ net-_u1-pad4_ net-_u1-pad5_ akhil_full_adder
+* u5  a b cin net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ adc_bridge_3
+* u6  net-_u1-pad4_ net-_u1-pad5_ sum carry dac_bridge_2
+v3  cin gnd pulse(0 1.8 0 0.1ms 0.1ms 10 20)
+v2  b gnd pulse(0 1.8 0 0.1ms 0.1ms 20 40)
+v1  a gnd pulse(0 1.8 0 0.1ms 0.1ms 40 80)
+* u7  sum plot_v1
+* u8  carry plot_v1
+* u2  a plot_v1
+* u3  b plot_v1
+* u4  cin plot_v1
+a1 [net-_u1-pad1_ ] [net-_u1-pad2_ ] [net-_u1-pad3_ ] [net-_u1-pad4_ ] [net-_u1-pad5_ ] u1
+a2 [a b cin ] [net-_u1-pad1_ net-_u1-pad2_ net-_u1-pad3_ ] u5
+a3 [net-_u1-pad4_ net-_u1-pad5_ ] [sum carry ] u6
+* Schematic Name:                             akhil_full_adder, NgSpice Name: akhil_full_adder
+.model u1 akhil_full_adder(rise_delay=1.0e-9 fall_delay=1.0e-9 input_load=1.0e-12 instance_id=1 ) 
+* Schematic Name:                             adc_bridge_3, NgSpice Name: adc_bridge
+.model u5 adc_bridge(in_low=1.0 in_high=2.0 rise_delay=1.0e-9 fall_delay=1.0e-9 ) 
+* Schematic Name:                             dac_bridge_2, NgSpice Name: dac_bridge
+.model u6 dac_bridge(out_low=0.0 out_high=5.0 out_undef=0.5 input_load=1.0e-12 t_rise=1.0e-9 t_fall=1.0e-9 ) 
+.tran 0.1e-00 100e-00 1e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(sum) v(carry)+6 v(a)+12 v(b)+18 v(cin)+24
+.endc
+.end

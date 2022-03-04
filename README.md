@@ -2,7 +2,6 @@
 # Full_adder_Analog
 Implementation of Conventional Full Adder Architecture Using esim Tools
 
-# Full_adder_Analog
 - [Abstract](#abstract)
 - [Reference Circuit Diagram](#reference-circuit-diagram)
 - [Reference Waveform](#reference-waveform)
@@ -162,7 +161,7 @@ endmodule
 4. Sumanto Kar, eSim Team, FOSSEE
 
 ## References
-1. Ahmad, Nabihah & Hasan, Rezaul. (2011). A new design of XOR-XNOR gates for low power application. 10.1109/ICEDSA.2011.5959039. 
-2. K. Ravali, N. R. Vijay, S. Jaggavarapu and R. Sakthivel, "Low power XOR gate design and its applications," 2017 Fourth International Conference on Signal Processing, Communication and Networking (ICSCN), 2017, pp. 1-4, doi: 10.1109/ICSCN.2017.8085699.
-3. https://github.com/Eyantra698Sumanto/Two-in-One-Low-power-XOR-XNOR-Gate.git
+[1] N. Weste, and K. Eshraghian, “Principles of CMOS VSI Design: A Systems Perspective,” Second Edition,Addison-Wesley, 1993.
+
+[2] D. Radhakrishnan, “Low-voltage low-power CMOS fulladder,” IEEE Proceedings - Circuits Devices and System vol. 148, pp. 19-24, Feb. 2001.
 

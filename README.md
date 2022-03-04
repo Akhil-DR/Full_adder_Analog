@@ -141,9 +141,9 @@ endmodule
 2. Clone this project using the following command:</br>
 ```git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git ```</br>
 3. Change directory:</br>
-```cd eSim_project_files/xor_xnor```</br>
+```cd eSim_project_files/akhil_full_adder```</br>
 4. Run ngspice:</br>
-```ngspice xor_xnor.cir.out```</br>
+```ngspice akhil_full_adder.cir.out```</br>
 5. To run the project in eSim:
 
   - Run eSim</br>

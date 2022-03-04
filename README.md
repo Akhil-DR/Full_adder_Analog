@@ -27,7 +27,10 @@ Implementation of Conventional Full Adder Architecture Using esim Tools
 
 
 ## Abstract
-In this article, 28T CMOS Full Adder circuit is proposed. The design analysis is being verified by Circuit Schematic and Waveforms using Synopsys Custom-Compiler Platform. The design is implemented using 28nm CMOS technology.
+This article proposes a 28T CMOS Full Adder circuit.
+The design analysis is verified by Circuit Schematic and
+Waveforms using esim and ngspice(ngveri) Software Platform.
+The design is implemented using 28nm CMOS technology
 efficient.
 ## Reference Circuit Diagram
 ![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/Conventional-CMOS-full-adder_W640.jpg)

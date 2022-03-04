@@ -141,7 +141,7 @@ endmodule
 2. Clone this project using the following command:</br>
 ```https://github.com/Akhil-DR/Full_adder_Analog.git ```</br>
 3. Change directory:</br>
-```cd eSim_project_files/akhil_full_adder```</br>
+```cd eSim_Workspace/akhil_full_adder```</br>
 4. Run ngspice:</br>
 ```ngspice akhil_full_adder.cir.out```</br>
 5. To run the project in eSim:

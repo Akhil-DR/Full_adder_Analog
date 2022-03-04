@@ -1,5 +1,5 @@
 # Mixed Signal Circuit Design and Simulation Marathon
-# Full_adder_Analog
+# Full_adder_Analog_IITB-esim-MIXED-SIGNAL-Hackathon 2022
 Implementation of Conventional Full Adder Architecture Using esim Tools
 
 - [Abstract](#abstract)

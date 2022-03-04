@@ -30,7 +30,7 @@ Implementation of Conventional Full Adder Architecture Using esim Tools
 This article proposes a 28T CMOS Full Adder circuit.
 The design analysis is verified by Circuit Schematic and
 Waveforms using esim and ngspice(ngveri) Software Platform.
-The design is implemented using 28nm CMOS technology
+The design is implemented using 180nm CMOS technology
 efficient.
 ## Reference Circuit Diagram
 ![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/Conventional-CMOS-full-adder_W640.jpg)
@@ -122,8 +122,7 @@ endmodule
 
 ```
 ## Makerchip Plots
-![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/adder_waveform1.png)
-
+![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/adder_wavform2.png)
 ## Netlists
 ![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/adder_netlist.png)
 ## NgSpice Plots

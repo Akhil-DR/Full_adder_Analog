@@ -139,7 +139,7 @@ endmodule
 ## Steps to run this project
 1. Open a new terminal
 2. Clone this project using the following command:</br>
-```git clone https://github.com/Eyantra698Sumanto/XOR-XNOR-Gate.git ```</br>
+```https://github.com/Akhil-DR/Full_adder_Analog.git ```</br>
 3. Change directory:</br>
 ```cd eSim_project_files/akhil_full_adder```</br>
 4. Run ngspice:</br>

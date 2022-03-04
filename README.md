@@ -18,7 +18,6 @@ Implementation of Conventional Full Adder Architecture Using esim Tools
 - [Makerchip Plots](#makerchip-plots)
 - [Netlists](#netlists)
 - [NgSpice Plots](#ngspice-plots)
-- [GAW Plots](#gaw-plots)
 - [Steps to run generate NgVeri Model](#steps-to-run-generate-ngveri-model)
 - [Steps to run this project](#steps-to-run-this-project)
 - [Acknowlegdements](#acknowlegdements)
@@ -74,9 +73,9 @@ https://www.veripool.org/verilator/
 
 ## Circuit Diagram in eSim
 The following is the schematic in eSim:
-![image](https://user-images.githubusercontent.com/58599984/156439856-079de481-b68d-4955-b9c9-6ff310c5de58.png)
+![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/adder_analog_schematic.png)
 ## Verilog Code
-![image](https://user-images.githubusercontent.com/58599984/156445908-1af8255c-d17c-4275-8e24-ee65c96af66a.png)
+![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/adder_code.png)
 ## Makerchip
 ```
 \TLV_version 1d: tl-x.org
@@ -120,18 +119,12 @@ endmodule
 
 ```
 ## Makerchip Plots
-![image](https://user-images.githubusercontent.com/58599984/156443516-6fdc4420-0bab-40a8-84f4-515966e4f569.png)
+![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/adder_waveform1.png)
 
 ## Netlists
-![image](https://user-images.githubusercontent.com/58599984/156440985-0a983124-b5ad-4b60-b83f-7adf0e7c36fb.png)
+![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/adder_netlist.png)
 ## NgSpice Plots
-![image](https://user-images.githubusercontent.com/58599984/156440036-188911e0-9bb2-4d9f-b53d-878f5792d1c6.png)
-![image](https://user-images.githubusercontent.com/58599984/156440082-c3f319ef-3224-4595-85e9-38bae135350f.png)
-
-![image](https://user-images.githubusercontent.com/58599984/156439624-353c14ac-4216-4aa7-8207-64f4c287b2b7.png)
-![image](https://user-images.githubusercontent.com/58599984/156439590-9371c62f-384b-42f8-9403-9704429d752d.png)
-## GAW Plots
-![image](https://user-images.githubusercontent.com/58599984/156439535-edb78fc7-a6e6-4178-864a-7cea5ea37e23.png)
+![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/adder_analog_wavform.png)
 ## Steps to run generate NgVeri Model
 1. Open eSim
 2. Run NgVeri-Makerchip 

@@ -30,9 +30,9 @@ Implementation of Conventional Full Adder Architecture Using esim Tools
 In this article, 28T CMOS Full Adder circuit is proposed. The design analysis is being verified by Circuit Schematic and Waveforms using Synopsys Custom-Compiler Platform. The design is implemented using 28nm CMOS technology.
 efficient.
 ## Reference Circuit Diagram
-![image](https://user-images.githubusercontent.com/58599984/152688334-fa3ad04d-e142-4dd1-a0cf-00fd13ca2d9e.png)
+![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/Conventional-CMOS-full-adder_W640.jpg)
 ## Reference Waveform
-![image](https://user-images.githubusercontent.com/58599984/152688402-29877a15-deb3-4dee-9bcc-2313851182de.png)
+![image](https://github.com/Akhil-DR/Full_adder_Analog/blob/main/Full%20Adder/Full_Adder_refrence_waveform.png)
 ## Circuit Details
 A single bit full adder is a basic block which performs complex arithmetic logic circuits like addition, division, multiplication, exponent circuit. Addition is basically the most
 fundamental arithmetic operation, which is widely used across various components as subtractor, multipliers as a basic unit. Any adder circuits focus is to reduce power and increase
